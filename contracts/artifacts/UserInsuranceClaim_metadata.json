@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Insurance Project(Solidit_REMIX)/contracts/Insurance.sol": "UserInsuranceClaim"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Insurance Project(Solidit_REMIX)/contracts/AddUsers.sol": {
+			"keccak256": "0x810464d37e3738d7d1811004df1201e74fd930d22ed099de213e0669cc4d2424",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://93f497ce1e2a61798f08882a5e4b5e5845a17ea17319390c0aa1dd6086265120",
+				"dweb:/ipfs/QmdqPsAQo2gNvVXs34f6aN3pEZK4oxYXb9EgoUhxRhPNiN"
+			]
+		},
+		"Insurance Project(Solidit_REMIX)/contracts/Insurance.sol": {
+			"keccak256": "0xa5df6597e78ebf6038245a44164148fcbe9735a4d1d1bad0b95dbf09467fe0b7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8a12c9d2a611ec160d6a425d003f8c9bc9ea57cb0b850a0afe835c971e49c2d9",
+				"dweb:/ipfs/QmUJwM3aZ4TxBFLBm1gsdwyQrcXJJhnbGXTue8rkqCDiiA"
+			]
+		}
+	},
+	"version": 1
+}

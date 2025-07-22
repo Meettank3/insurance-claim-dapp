@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Insurance Project(Solidit_REMIX)/contracts/Insurance.sol": "Insurance"
+			"Insurance Project(Solidit_REMIX)/contracts/Insurance.sol": "InsuranceClaim"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"Insurance Project(Solidit_REMIX)/contracts/Insurance.sol": {
-			"keccak256": "0x0991ef1fe7955dc12420ad233a8df34f00d8ef4e97e7053611cfc1ce8251c92e",
+			"keccak256": "0xb061e937f5adf9572b3705903079d73f4b57e667df7328a576c2461d43c5f97c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://652429174fac62f29857486e7c630ea5748ab338dd2b9a7abf2aa20265795204",
-				"dweb:/ipfs/QmZe4zPb6xtBsypr2ETTZjEwpPY8H92dUKVeceCL92ytEX"
+				"bzz-raw://f7cd9ea4ab8b57876c7bba62b7d04f3a41e57894af4eb07fe4603674c8660bfd",
+				"dweb:/ipfs/Qmdh1WFeJKvGEQeoc2ubPXhJGyeWQza8W6C6DJgKqribUb"
 			]
 		}
 	},
