@@ -1,0 +1,133 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_insurance_no",
+						"type": "uint256"
+					}
+				],
+				"name": "AddUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_user_Id",
+						"type": "int256"
+					}
+				],
+				"name": "getUsers",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "int256",
+								"name": "User_ID",
+								"type": "int256"
+							},
+							{
+								"internalType": "string",
+								"name": "Name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "Insurance_NO",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "UserAddress",
+								"type": "address"
+							}
+						],
+						"internalType": "struct Insurance.Users",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "User_ID",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Insurance_NO",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "UserAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Insurance.sol": "Insurance"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Insurance.sol": {
+			"keccak256": "0x5a1d4ec45c9b80edc576c1e68655515c5bf5b1356d393500af44827cf42038bf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://40f20776d4ddc8fc115764bbb9331646cad06c959133c1cbc635aabc228d26e2",
+				"dweb:/ipfs/QmPdPgMRUbuV65WuPBvFDwVJF5GB772ARRPbpMzHdstxnj"
+			]
+		}
+	},
+	"version": 1
+}
