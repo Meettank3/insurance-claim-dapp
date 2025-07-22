@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -209,11 +209,11 @@
 	},
 	"sources": {
 		"Insurance Project(Solidit_REMIX)/contracts/AddUsers.sol": {
-			"keccak256": "0x482bb6c2e08c5c0cf874e47eb261f8a94c023181042a901f93747e3b9c658b46",
+			"keccak256": "0x72dd510c752a615c31d2b9302cab4918f3f3f595b46babeb0dc334bd1c390f02",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0b28b47a2c74a406b92d15731ef1ba61a9e96dd771360108a2f7ccf282c353d9",
-				"dweb:/ipfs/QmNXbLexTPZ4RAUnNHAnoypCf7ucvQesmkdVp36u4XPAZU"
+				"bzz-raw://5dff03a39e4c4908bac416b16b1e81994e39c888b0e7c1568e2838f5f4f8d0cd",
+				"dweb:/ipfs/QmUUQha5vkMk2QFzduVyeQ12A7guxY3hAZp9pQq8EQKTR3"
 			]
 		}
 	},

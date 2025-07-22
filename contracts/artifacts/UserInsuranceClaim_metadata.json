@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -33,19 +33,19 @@
 	},
 	"sources": {
 		"Insurance Project(Solidit_REMIX)/contracts/AddUsers.sol": {
-			"keccak256": "0x810464d37e3738d7d1811004df1201e74fd930d22ed099de213e0669cc4d2424",
+			"keccak256": "0x72dd510c752a615c31d2b9302cab4918f3f3f595b46babeb0dc334bd1c390f02",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://93f497ce1e2a61798f08882a5e4b5e5845a17ea17319390c0aa1dd6086265120",
-				"dweb:/ipfs/QmdqPsAQo2gNvVXs34f6aN3pEZK4oxYXb9EgoUhxRhPNiN"
+				"bzz-raw://5dff03a39e4c4908bac416b16b1e81994e39c888b0e7c1568e2838f5f4f8d0cd",
+				"dweb:/ipfs/QmUUQha5vkMk2QFzduVyeQ12A7guxY3hAZp9pQq8EQKTR3"
 			]
 		},
 		"Insurance Project(Solidit_REMIX)/contracts/Insurance.sol": {
-			"keccak256": "0xa5df6597e78ebf6038245a44164148fcbe9735a4d1d1bad0b95dbf09467fe0b7",
+			"keccak256": "0x6f2fedb3d76e5ea5217ca2447879fef64e38cee2c7e22c165012c3824b3faee0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8a12c9d2a611ec160d6a425d003f8c9bc9ea57cb0b850a0afe835c971e49c2d9",
-				"dweb:/ipfs/QmUJwM3aZ4TxBFLBm1gsdwyQrcXJJhnbGXTue8rkqCDiiA"
+				"bzz-raw://74d523d06c3a2abca7897c732985f8abff7af34179762ec1ca1bd2bcd7d21c6b",
+				"dweb:/ipfs/QmSonQzixYR7VbfK2AwcRFwar4EsHNQvPKHwavY5sZvHym"
 			]
 		}
 	},
