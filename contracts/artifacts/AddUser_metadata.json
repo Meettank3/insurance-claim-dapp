@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.28+commit.7893614a"
+		"version": "0.8.29+commit.ab55807c"
 	},
 	"language": "Solidity",
 	"output": {
@@ -11,11 +11,61 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_insurNo",
-						"type": "uint256"
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "int256",
+						"name": "insuranceNo",
+						"type": "int256"
+					}
+				],
+				"name": "InsuranceAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "int256",
+						"name": "userId",
+						"type": "int256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "int256",
+						"name": "insuranceNo",
+						"type": "int256"
+					}
+				],
+				"name": "UserAdded",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_insuranceNo",
+						"type": "int256"
 					}
 				],
 				"name": "addNewInsurance",
@@ -31,9 +81,9 @@
 						"type": "string"
 					},
 					{
-						"internalType": "uint256",
-						"name": "_insurance_no",
-						"type": "uint256"
+						"internalType": "int256",
+						"name": "_insuranceNo",
+						"type": "int256"
 					}
 				],
 				"name": "addUser",
@@ -52,9 +102,9 @@
 				"name": "getInsuranceCount",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -71,44 +121,38 @@
 				"name": "getInsuranceNumber",
 				"outputs": [
 					{
-						"internalType": "uint256[]",
+						"internalType": "int256[]",
 						"name": "",
-						"type": "uint256[]"
+						"type": "int256[]"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "int256",
-						"name": "_user_Id",
-						"type": "int256"
-					}
-				],
+				"inputs": [],
 				"name": "getUser",
 				"outputs": [
 					{
 						"components": [
 							{
 								"internalType": "int256",
-								"name": "User_Id",
+								"name": "userId",
 								"type": "int256"
 							},
 							{
 								"internalType": "string",
-								"name": "Name",
+								"name": "name",
 								"type": "string"
 							},
 							{
-								"internalType": "uint256",
-								"name": "Insurance_NO",
-								"type": "uint256"
+								"internalType": "int256",
+								"name": "insuranceNo",
+								"type": "int256"
 							},
 							{
 								"internalType": "address",
-								"name": "UserAddress",
+								"name": "userAddress",
 								"type": "address"
 							}
 						],
@@ -121,33 +165,46 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "myInsuranceNumbers",
+				"outputs": [
+					{
+						"internalType": "int256[]",
+						"name": "",
+						"type": "int256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
-						"internalType": "int256",
+						"internalType": "address",
 						"name": "",
-						"type": "int256"
+						"type": "address"
 					}
 				],
 				"name": "myUsers",
 				"outputs": [
 					{
 						"internalType": "int256",
-						"name": "User_Id",
+						"name": "userId",
 						"type": "int256"
 					},
 					{
 						"internalType": "string",
-						"name": "Name",
+						"name": "name",
 						"type": "string"
 					},
 					{
-						"internalType": "uint256",
-						"name": "Insurance_NO",
-						"type": "uint256"
+						"internalType": "int256",
+						"name": "insuranceNo",
+						"type": "int256"
 					},
 					{
 						"internalType": "address",
-						"name": "UserAddress",
+						"name": "userAddress",
 						"type": "address"
 					}
 				],
@@ -209,11 +266,11 @@
 	},
 	"sources": {
 		"Insurance Project(Solidit_REMIX)/contracts/AddUsers.sol": {
-			"keccak256": "0x72dd510c752a615c31d2b9302cab4918f3f3f595b46babeb0dc334bd1c390f02",
+			"keccak256": "0x810488998bb3652da5edb04e928eec1bf0d45c920649bafdd64f5be7e2efc6f7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5dff03a39e4c4908bac416b16b1e81994e39c888b0e7c1568e2838f5f4f8d0cd",
-				"dweb:/ipfs/QmUUQha5vkMk2QFzduVyeQ12A7guxY3hAZp9pQq8EQKTR3"
+				"bzz-raw://22bc5e61b25f958cf29214d01e21ce4f8ac23c0b30ea0f70b947b567b789ee64",
+				"dweb:/ipfs/QmQo38KVDLJPCP7fsWYAS6Z79Fqqky2nR9p3yM57bRLPKD"
 			]
 		}
 	},
